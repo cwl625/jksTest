@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using dllTestProj;
 
 namespace jksTest
 {
@@ -11,12 +12,19 @@ namespace jksTest
     {
         static void Main(string[] args)
         {
+
+            TestClass testClass = new TestClass();
             //
             //
             //
 
             Debug.WriteLine("Hello");
             Console.WriteLine("Hello@@@@@@@@@@@");
+            string str = testClass.AddString("Hello");
+
+            Console.WriteLine(str);
+
+
 
         }
     }
