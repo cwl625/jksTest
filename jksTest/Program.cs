@@ -11,9 +11,12 @@ namespace jksTest
     {
         static void Main(string[] args)
         {
-
             //
+            //
+            //
+
             Debug.WriteLine("Hello");
+            Console.WriteLine("Hello@@@@@@@@@@@");
 
         }
     }
