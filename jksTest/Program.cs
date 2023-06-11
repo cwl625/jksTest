@@ -19,7 +19,7 @@ namespace jksTest
             //
 
             Debug.WriteLine("Hello");
-            Console.WriteLine("Hello@@@@@@@@@@@");
+            Console.WriteLine("Hello@@@@@@@@@@@@");
             string str = testClass.AddString("Hello");
 
             Console.WriteLine(str);
