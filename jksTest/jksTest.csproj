@@ -34,8 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dllTestProj">
-      <HintPath>..\..\dllTestProj\dllTestProj\bin\Debug\dllTestProj.dll</HintPath>
+    <Reference Include="dllTestProj, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\dllTestProj.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
